@@ -1,4 +1,176 @@
-.general-font {
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
+:root {
+    --main-font-family: "Roboto", sans-serif;
+    --secondary-font-family: "Raleway", sans-serif;
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --main-bg-color: #E5E5E5;
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #2F303A;
+    --logo-web-color: #2196F3;
+    --logo-web-color-2: #000000;
+    --footer-bg-color: #2F303A;
+}
+
+.web,
+.web-studio-link,
+.bottom,
+.studio-name-footer
+{
+    text-decoration: none;
+}
+
+.nav-agency,
+.nav-links,
+.nav-portfolio,
+.contact-links,
+.nav-contact,
+.nav-mail,
+.nav-phone,
+.our-section-list,
+.main-images,
+.main-images-images,
+.team-images,
+.bottom,
+.bottom-contact-adress,
+.bottom-contact-link,
+.set-buttons,
+.card-set-photo {
+    list-style: none;
+}
+
+body{
+    font-family: "Roboto", sans-feris;
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+.web {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing:  0.03em;
+    color: var(--logo-web-color);
+}
+.web-studio-link{
+    font-family: var(--secondary-font-family);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35.96px;
+    letter-spacing: 0.03em;
+    color:var(--logo-web-color-2);
+}
+
+.nav-links {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--logo-web-color);
+}
+.contact-links {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: var(--primary-text-color);
+}
+.nav-mail {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: var(--logo-web-color);
+}
+.nav-phone-1 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: var(--title-text-color);
+}
+.big-header{
+    background-color: var(--footer-bg-color);
+}
+.big-title {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        color: var(--primary-bg-color);
+}
+.button-menu {
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        color:var(--primary-bg-color);
+        background-color: var(--logo-web-color);
+}
+.our-section-list {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16.41px;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+}
+.our-section-description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: var(--title-text-color);
+}
+.our-section-title-2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42.19px;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+}
+.team-name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18.75px;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+}
+.team-position {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18.75px;
+        letter-spacing: 0.03em;
+        color: var(--title-text-color);
+}
+.bottom {
+    background-color: var(--footer-bg-color);
+}
+.studio-name-footer{
+        font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 35.96px;
+        letter-spacing: 0.03em;
+        color: var(--primary-bg-color);
+}
+.bottom-contact-adress {
+        text-transform: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 1);
+}
+.bottom-contact-link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.all-button {
+        cursor: pointer;
 }
