@@ -1,2 +1,2 @@
-https://kglanos.github.io/goit-markup-hw-01/
-https://github.com/kglanos/goit-markup-hw-01.git
+https://kglanos.github.io/goit-markup-hw-02/
+https://github.com/kglanos/goit-markup-hw-02.git
